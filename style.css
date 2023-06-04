@@ -1,0 +1,93 @@
+*{
+  font-family: ubuntu;
+}
+
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+.container {
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;
+    margin-top: 5rem;
+    border: 1px 1px 1px 1px #eaeaea;
+    box-shadow: -1px -1px 1px 1px #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 5rem;
+  }
+  
+  .length-control {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin:  20px auto;
+  }
+  
+  .label {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.controls > button {
+    background-color: aqua;
+  }
+  
+  .btn {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: none;
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+  
+  .length {
+    font-size: 24px;
+  }
+  
+  #timer {
+    margin-bottom: 20px;
+  }
+  
+  #timer-label {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #time-left {
+    font-size: 72px;
+  }
+  
+  .controls .btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .controls .btn:first-child {
+    margin-right: 10px;
+  }
+  
+  .controls .btn:last-child {
+    margin-left: 10px;
+  }
+  
+  .controls .btn:focus {
+    outline: none;
+  }
+  
+  .controls .btn:active {
+    background-color: #ccc;
+  }
+  

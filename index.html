@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <h1>Mon Minuteur</h1>
+      <div class="length-control">
+        <div id="break-label" class="label">Break Length</div>
+        <div class="controls">
+          <button id="break-decrement" class="btn">-</button>
+          <div id="break-length" class="length">5</div>
+          <button id="break-increment" class="btn">+</button>
+        </div>
+      </div>
+      <div class="length-control">
+        <div id="session-label" class="label">Session Length</div>
+        <div class="controls">
+          <button id="session-decrement" class="btn">-</button>
+          <div id="session-length" class="length">25</div>
+          <button id="session-increment" class="btn">+</button>
+        </div>
+      </div>
+      <div id="timer">
+        <div id="timer-label">Session</div>
+        <div id="time-left">25:00</div>
+      </div>
+      <div class="controls">
+        <button id="start_stop" class="btn">Start</button>
+        <button id="reset" class="btn">Reset</button>
+      </div>
+      <audio id="beep" src="beep.mp3"></audio>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
