@@ -3,8 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color:  #FFBF66
-  ;
+  color: #FFBF66;
 }
 
 html {
@@ -33,13 +32,13 @@ body {
 }
 
 .container {
-  height: 70%;
+  height: 58%;
   display: flex;
   flex-direction: column;
   align-content: space-between;
   justify-content: space-between;
   text-align: center;
-  background-color:  #00353F;  
+  background-color: #00353F;
   width: 100%;
   border: 1px 1px 1px 1px #eaeaea;
   box-shadow: -1px -1px 1px 1px #ccc;
@@ -65,10 +64,9 @@ body {
 }
 
 div.controls>button {
-  background-color: 
+  background-color:
 
-  #D46F4D
-  ;
+    #D46F4D;
 }
 
 .btn {
@@ -119,10 +117,11 @@ div.controls>button {
   background-color: #ccc;
 }
 
-#start_stop{
+#start_stop {
   background-color: cadetblue;
 }
-#reset{
+
+#reset {
   background-color: red;
 }
 
