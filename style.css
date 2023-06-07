@@ -1,93 +1,135 @@
-*{
+* {
   font-family: ubuntu;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:  #FFBF66
+  ;
 }
 
-#app{
+html {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+#app {
+  padding: 1%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: #430C05;
+  width: 100%;
 }
 
 .container {
-    text-align: center;
-    background-color: aliceblue;
-    width: 50%;
-    margin-top: 5rem;
-    border: 1px 1px 1px 1px #eaeaea;
-    box-shadow: -1px -1px 1px 1px #ccc;
-    padding: 1rem;
-    border-radius: 4px;
-    margin-bottom: 5rem;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  text-align: center;
+  background-color:  #00353F;  
+  width: 100%;
+  border: 1px 1px 1px 1px #eaeaea;
+  box-shadow: -1px -1px 1px 1px #ccc;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.length-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.label {
+  font-size: 24px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.controls>button {
+  background-color: 
+
+  #D46F4D
+  ;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border: none;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+
+.length {
+  font-size: 24px;
+}
+
+#timer {
+  margin-bottom: 20px;
+}
+
+#timer-label {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#time-left {
+  font-size: 72px;
+}
+
+.controls .btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.controls .btn:first-child {
+  margin-right: 10px;
+}
+
+.controls .btn:last-child {
+  margin-left: 10px;
+}
+
+.controls .btn:focus {
+  outline: none;
+}
+
+.controls .btn:active {
+  background-color: #ccc;
+}
+
+#start_stop{
+  background-color: cadetblue;
+}
+#reset{
+  background-color: red;
+}
+
+@media (max-width: 991.98px) {
+  #app {
+    width: 100%;
+    height: 100%;
   }
-  
-  .length-control {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 60%;
-    margin:  20px auto;
-  }
-  
-  .label {
-    font-size: 24px;
-    margin-right: 20px;
-  }
-  
-  .controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  div.controls > button {
-    background-color: aqua;
-  }
-  
-  .btn {
-    font-size: 20px;
-    padding: 5px 10px;
-    margin: 0 10px;
-    border: none;
-    background-color: #eaeaea;
-    cursor: pointer;
-  }
-  
-  .length {
-    font-size: 24px;
-  }
-  
-  #timer {
-    margin-bottom: 20px;
-  }
-  
-  #timer-label {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  #time-left {
-    font-size: 72px;
-  }
-  
-  .controls .btn {
-    padding: 10px 20px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  
-  .controls .btn:first-child {
-    margin-right: 10px;
-  }
-  
-  .controls .btn:last-child {
-    margin-left: 10px;
-  }
-  
-  .controls .btn:focus {
-    outline: none;
-  }
-  
-  .controls .btn:active {
-    background-color: #ccc;
-  }
-  
+
+}
